@@ -7,7 +7,7 @@ When working with microflows it is important to realize that we always have tran
 
 # Transactions keep your data consistent
 
-Everything that happens in the platform happens in a transaction and, unless specified otherwise, everything is executed or nothing is executed. So if you don't specify any error handling and the microflow you are trying to execute gives an error, nothing will be executed. That means that all objects you create or changed are being reverted, you do net get the text feedback and the platform won't show the new page either. Either every single step in the microflow is successfully executed or nothing. That is the only way to keep a process and the data consistent.
+Everything that happens in the platform happens in a transaction and, unless specified otherwise, everything is executed or nothing is executed. So if you don't specify any error handling and the microflow you are trying to execute gives an error, nothing will be executed. That means that all objects you create or changed are being reverted, you do not get the text feedback and the platform won't show the new page either. Either every single step in the microflow is successfully executed or nothing. That is the only way to keep a process and the data consistent.
 
 # Transactions keep the changes isolated
 
